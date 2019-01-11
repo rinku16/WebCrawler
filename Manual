@@ -1,0 +1,12 @@
+Note: I use anaconda navigator because it is easy to work with scrapy python module as with python on window it given an error of some twisted library
+
+This Crawler is used to download all the web pages linked to a given webpage or home page start_urls (see code), before using this new2.py file you need to know following things:
+
+1. Install anaconda navigator (in my case window 10), download cheat code of anaconda (for commands used in anaconda prompt).
+2. Install scrapy using anaconda prompt (using command "pip install scrapy"), once You install anaconda navigator you just search anaconda prompt on search bar on the left-bottom.
+3. using the anaconda prompt just go to folder where you want to store all necessary files which automatically generated on running the command "scrapy startproject your_folder_name" sample_name is your folder name.
+4. Then explore the folders and save this new2.py file inside 'spiders' folder like this "your_folder_name/your_folder_name/spiders/new2.py"
+5. Before running the crawler go to anaconda prompt and make commands to reach the top-parent-level folder where all files of crawler are stored. like C:/Users/PCNaME/Desktop/Your_folder_name> scrapy carwl link (here 'link' is the name of cralwer scrapy wil reach the spiders folder and search for link spider to crawl the web pages)
+6. all the extracted file in html are saved in top-parent-folder.
+
+Thanks!!
