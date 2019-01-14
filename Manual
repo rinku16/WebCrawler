@@ -1,4 +1,4 @@
-Note: I use anaconda navigator because it is easy to work with scrapy python module as with python on window it given an error of some twisted library
+Note: I used anaconda navigator because it is easy to work with scrapy python module as with python on window it given an error of some "twisted" library
 
 This Crawler is used to download all the web pages linked to a given webpage or home page start_urls (see code), before using this new3.py file you need to know following things:
 
